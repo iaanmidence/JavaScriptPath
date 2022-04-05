@@ -1,0 +1,41 @@
+//Adding a Number with .push():
+
+const myArr = [1, 2, 4];
+myArr.push(8);
+
+result: 1, 2 , 4, 8
+
+
+//Adding a String with .push():
+
+const myVar = ["Life", "Moon", "Music"];
+myVar.push("Love");
+
+result: Life, Moon, Music, Love.
+
+
+//The .pop() method removes the last element from the Array. Manipulate Arrays with .pop():
+
+const myArr = [1, 2, 3];
+const oneDown = myArr.pop();
+console.log(oneDown);
+console.log(threeArr);
+
+result: the first console will display "3", and the second "1, 2".
+
+
+//Manipulate Arrays with .shift():
+
+const ourArray = ["Mãe", "Pai", ["Filho"]];
+const removedFromOurArray = ourArray.shift();
+
+result: removedFromOurArray would have a value of: "Mãe", and ourArray would have "[Pai", ["Filho"]] as values.
+
+
+//Manipulate Arrays with unshift():
+
+const ourArray = ["Mãe", "Pai", "Filho"];
+ourArray.shift();
+ourArray.unshift("Happy");
+
+result: after the .shift(), ourArray would have a value of ["Pai", "Filho"]. After the .unshift() ourArray would have the value ["Happy", "Pai", "Filho"].
