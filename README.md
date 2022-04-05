@@ -1,2 +1,2 @@
 # JavaScriptPath
-Documenting my leraning process
+Documenting my learning process.
