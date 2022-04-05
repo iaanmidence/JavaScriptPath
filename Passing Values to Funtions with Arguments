@@ -1,0 +1,20 @@
+//Parameters are placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically 
+defined along with one or more parameters> Theses values are known as "arguments".
+
+Here's a function with 2 parameters, param1 and param2:
+
+function testFun(param1, param2) {
+  console.log(param1, param2);
+  }
+
+//Then we call test fun like this > testFun("Hello", "World");. We have passed two string arguments, Hello and World. Inside the function, param1
+will equal the string Hello and param2 will equal the string World . Note that u could call testFun again with different arguments and the parameters 
+would take on the value of the new arguments.
+
+1 - Create a function called functionWithArgs that accepts two arguments and outputs thei sum to the dev console.
+2 - Call the function with two numbers as argument.
+
+function functionWithArgs (param1 + param2){
+  console.log(param1, param2);
+  }
+functionWithArgs(1, 34);
