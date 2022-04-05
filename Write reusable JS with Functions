@@ -1,0 +1,16 @@
+//Here's an example of a function:
+
+function functionName() {
+  console.log("Hello World");
+  }
+  
+ - You can call this function by using its name followed by parentheses: functionName(). and the result will be: "Hello World".
+ - Create a function called reusableFunction which prints the String "Hi world" to the console and then call the function.
+ 
+ function reusableFunction() {
+  console.log("Hi World");
+  }
+  reusableFunction()
+ 
+ result: Hi world.
+ 
