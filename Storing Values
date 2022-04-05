@@ -1,0 +1,20 @@
+//Storing Values with the assign operator:
+
+var myVar:
+myvar = 5;
+
+
+//Assigning the Value of One Variable to another:
+
+var myVar;
+myVar = 5;
+var myNum;
+myNum = myVar;
+
+
+//Declare String Variables:
+
+var myName = "your name';
+
+
+
