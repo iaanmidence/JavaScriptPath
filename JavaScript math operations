@@ -1,0 +1,44 @@
+//Add two Numbers with JS:
+
+const myVar = 10 + 5;
+
+
+//Substract one Number from another with JS:
+
+const myVar = 10 - 5;
+
+
+//Multiiply two Numbers with JS:
+
+const myVar = 10 * 5;
+
+
+//Divide one Number by another with JS:
+
+const myVar = 10 / 5;
+
+
+//Increment a Number with JS:
+
+i++; is the equivalent of i = i + 1;
+
+use myVar++; istead of myVar = myVar + 1;
+
+
+Decrement a Number with JS:
+
+i--; is teh equivalent of i = i - 1;
+
+use myVar--; instead of myVar = myVar - 1;
+
+
+//Compund Assignment with augmented addition:
+
+let myVar = 1;
+myVar += 5;
+console.log(myVar);
+
+the number 6 would be displayed.
+
+
+//
