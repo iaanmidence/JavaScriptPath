@@ -1,0 +1,13 @@
+//When definfin a string u must start and end with a single or double quote ('' or " ").
+//In JS u can escape a quote from considering it as an end of string quote by placing a backslash (\) in front of the quote, like this:
+
+const something = "Ian said, \"Peter is learning JavaScript\".";
+
+
+//Quoting String with quotes:
+
+const conversation = 'Finn exclaims to Jake, "Algebraic!"';
+
+We used both types of quotes in the sentence above, teh result would be: Finn exclaims to Jake, "Algebraic!".
+
+
