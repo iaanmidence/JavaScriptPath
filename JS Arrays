@@ -1,0 +1,10 @@
+//Creating an Array:
+
+const myJuice = ["Orange", "Strawberry", "Coconut water"];
+
+
+//Modify the Array so that it contains botha String and a Number:
+
+const myJuice = ["Orange", 1], ["Strawberry", 2], ["Coconut water", 2];
+
+This is called a nested or multi-dimensional array.
