@@ -1,0 +1,27 @@
+//Concatenation does not add spaces between concatenated strings, so you'll need to add them yourself.
+
+let ourStr = "I come first";
+ourStr += "I come second."
+
+ourStr now has a value of "I come first. I come second."
+
+
+//Constructing Strings with Variables:
+
+const myName = "Ian";
+const fullName = "My full name is " + myName + " Quintana.";
+
+const fullName would have a value of "My full name is Ian Quintana."
+
+
+//Appending Variables to Strings.
+//We can also append variables to a String using the plus equals (+=) operator:
+
+const anAdjective = "Delicious!";
+let ourStr = "The pie was ";
+ourStr += anAdjective;
+
+ourStr would have a value of "The pie was Delicious!";
+
+
+
