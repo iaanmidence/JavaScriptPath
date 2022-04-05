@@ -1,0 +1,46 @@
+//We can passa values into a function with arguments. You can use a retun statement to send a value back out of a function. Example:
+
+function plusThree(num) {
+  return num + 3;
+}
+
+const answer = plusThree(5);
+
+//"answer" has the value of 8.
+
+
+
+function plusFive(num) {
+  return num + 1;
+  }
+  
+const answer = plusFive(8);
+
+//"answer" has the value of 9.
+
+
+
+function menosNum(num) {
+  return num - 10;
+  }
+const answer = menosUm(9);
+
+//"answer" has the value of 1.
+
+
+
+function plusTen(num) {
+  return num + 18;
+  }
+const answer = plusTen(2);
+
+//"answer" has the value of 20.
+
+
+
+function menosTres(num) {
+  return num - 3;
+  }
+const answer = menosTres(89);
+
+//"answer" has the value of 86.
