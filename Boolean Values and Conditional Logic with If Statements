@@ -1,0 +1,29 @@
+//booleans may only be one of two values: True of False. They're basically little on-off switches, where true is on and False is off.
+
+//"if" statements are used to make decision in code. "if" tells JS to execute the code in the curly braces under certain conditions,
+defined in the parentheses. Theses conditions are know as "boolean" conditions and they may only be true or false.
+When the condition is true, the program executes the statement inside the curly braces. when the boolean condition evaluates to false,
+the statement inside the curly braces will not execute.
+
+Pseudocode:
+
+if (
+condition is true
+statement is executed
+
+
+Example:
+
+function test (myCondition) {
+  if (myCondition) {
+      return "it was True";
+      }
+      return "it was false";
+      }
+test(true);
+test(false);
+
+
+//"testTrue" returns the string "it was true", and "testFalse" returns the string "it was false".
+When test is called with a value of true, the if statement evaluates myCondition to see if it is true or not. Since it is true, the function
+returns "it was true". When we call test with a value of false, myCondition is not true and will return "it was false".
