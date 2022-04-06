@@ -1,0 +1,108 @@
+//All these operators return a boolean True or False value. The equality operator compares two values anf returns True if they're equivalent or False if they are not.
+
+//Comparison with the Equality Operator ==:
+
+function equalityTest(myVal) {
+  if(myVal == 10) {
+    return "Equal";
+   }
+  return "Not Equal";
+  }
+  
+//If myVal is equal to 10, the equality operator returns true, so the code in the curly braces will execute, and the function will return Equal. Otherwise, 
+the function will return Not Equal. In order for Js to compare two different data types, it must convert one type to another. This is know as Tyoe Coercion. 
+Once it does, however, it can compare terms as follows:
+
+1 == 1 > True
+1 == 2 > False
+1 == "1" > True
+"3" == 3 > True
+
+
+
+//Comparison with the Strict Equality Operator > === unlike the equality operator, which attempts to convert both values being compared to a common type, the strict
+equality operator does not perform a type conversion. If the values being compared have different types, they are considered unequal, and the strict equality 
+operator will return false.
+
+3 === 3 > True
+3 === "3" > False
+
+
+
+//Comparison with the Inequality Operator > The inequality operator (!=) is the opposite of the equality operator. It means not equal and returns false where equality 
+would return true and vice versa. Like the equality operator, the inequality operator will convert data types of values while comparing.
+
+1 != 2 > True
+1 != 1 > False
+1 != "1" > False
+
+
+
+
+//Comparison with the Strict Inequality Operator > The strict inequality operator (!==) is the logical opposite of the strict equality operator. 
+It means "Strictly Not Equal" and returns false where strict equality would return true and vice versa. The strict inequality operator will not convert data types.
+Like the equality operator, greater than will convert data types while comparing.
+
+3 !== 3 > False
+3 != "3" > True
+4 != 3 > True
+
+
+
+//Comparison with the Greater Than operator > The greater than operator (>) compares the values of two numbers. If the number to the left is greater than the number 
+to the right, it returns true. Otherwise, it returns false. Like the equality operator, greater than will convert data types while comparing.
+
+5 > 3 True
+4 > 5 False
+7 > '3' True
+
+
+
+//Comparison with the Greater Than or Equal To Operator > The greater than or equal to operator (`>=`) compares the values of two numbers. If the number to the left 
+is greater than or equal to the number to the right, it returns `true`. Otherwise, it returns `false`.
+Like the equality operator, the greater than or equal to operator will convert data types while comparing.
+
+6 >= '6'  True
+7 >= 3 True
+3 >= 8 False
+
+
+
+//Comparison with the Less Than Operator > The less than operator (<) compares the values of two numbers. If the number to the left is less than the number to the 
+right, it returns true. Otherwise, it returns false. Like the equality operator, the less than operator converts data types while comparing.
+
+2 < 5 True
+'3' < 6 True
+6 < 6 False
+3 < 2 False
+
+
+
+//Comparison with Less Than or Equal to > The less than or equal to operator (<=) compares the values of two numbers. If the number to the left is less than or 
+equal to the number to the right, it returns true. If the number on the left is greater than the number on the right, it returns false. Like the equality operator,
+the less than or equal to operator converts data types.
+
+4 <= 5 True
+4 <= 4 True
+3 < 2 False
+
+
+
+//Comparisons with the Logical and Operator > Sometimes you will need to test more than one thing at a time. The *logical and* operator (`&&`) returns `true` if and 
+only if the *operands* to the left and right of it are true. The same effect could be achieved by nesting an if statement inside another if:
+
+if(num > 5) {
+  if (num < 10) {
+    return "Yes";
+  }
+}
+return "No";
+
+Will only return "Yes" if num is greater than 5 and less than 10. The same logic can be written as:
+
+if(num > 5 && num < 10) {
+  return "Yes";
+  }
+return "No";
+
+
